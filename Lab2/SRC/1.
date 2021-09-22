@@ -1,0 +1,27 @@
+1.
+
+
+2.
+
+3. select instance from v$thread;
+
+
+4.
+
+5. select name from v$database;
+
+7.
+select name,display_value  from v$parameter 
+where name like 'mem%target' or name like 'pga%' 
+or name like 'sga%';
+
+
+8. 
+SELECT value FROM nls_database_parameters where PARAMETER='NLS_CHARACTERSET';
+
+9.
+
+10.
+
+
+12. select name from v$tablespace;
